@@ -1,0 +1,10 @@
+{
+  "ValidName": "Ahmed Gabr",
+  "ValidSubject": "QA Automation Role",
+  "ValidMessage": "New Valid Message Test",
+  "NoHostEmail": "test@testetset",
+  "OnlyLettersEmail": "abcdefg",
+  "OnlyNumbersEmail": "1234567",
+  "OnlySpecialCharsEmail": "#$%@^",
+  "InvalidFormatEmail": "test@.test"
+}

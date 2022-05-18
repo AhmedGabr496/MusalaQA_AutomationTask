@@ -1,0 +1,3 @@
+webUI\pages\newPage.class
+webUI\stepDefinetions\MyStepdefs.class
+webUI\testRunner\TestRunner.class
