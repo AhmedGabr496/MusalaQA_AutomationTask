@@ -1,5 +1,6 @@
 package utilities;
 
+import cucumber.api.testng.AbstractTestNGCucumberTests;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -7,16 +8,16 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.*;
+
 import java.util.concurrent.TimeUnit;
 
 
 public class TestBase {
     public static WebDriver driver;
 
-    public static void setBrowser() {
-        String browserType = ConfigUtil.getProperty("BrowserType");
+    @Parameters("browserType")
+    public static void setBrowser(String browserType) {
         System.out.printf("Browser Type = " + browserType);
         switch (browserType) {
             case "Chrome" -> {

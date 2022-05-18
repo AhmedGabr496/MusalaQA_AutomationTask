@@ -1,3 +1,4 @@
+
 Feature: MusalaSoft QA Automation Task
 
   @TC1
@@ -14,10 +15,10 @@ Feature: MusalaSoft QA Automation Task
     # The values for these invalid email formats is retrieved form a JSON File that holds the invalid email addresses test data
       | InvalidEmailFormat    |
       | NoHostEmail           |
-      | OnlyLettersEmail      |
-      | OnlyNumbersEmail      |
-      | OnlySpecialCharsEmail |
-      | InvalidFormatEmail    |
+#      | OnlyLettersEmail      |
+#      | OnlyNumbersEmail      |
+#      | OnlySpecialCharsEmail |
+#      | InvalidFormatEmail    |
 
   @TC2
   Scenario: Test Case 2
