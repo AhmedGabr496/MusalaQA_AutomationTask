@@ -30,4 +30,8 @@ A test automation technical assesment project ,that automates  UI TCS for Musala
  path : src/test/resources/Features/MusalaSoftWebSite.feature
 
 ## Demo Video
-* Test Execution Demo video can be found in the project files (Demo_Video_Technical_Task.mp4)
+* Test Execution Demo video can be found in the project files /DemoVideos
+* Test Case 1 : https://github.com/AhmedGabr496/MusalaQA_AutomationTask/blob/main/DemoVideos/TC1.mp4
+* Test Case 2 : https://github.com/AhmedGabr496/MusalaQA_AutomationTask/blob/main/DemoVideos/TC2.mp4
+* Test Case 3 : https://github.com/AhmedGabr496/MusalaQA_AutomationTask/blob/main/DemoVideos/TC3.mp4
+* Test Case 4 : https://github.com/AhmedGabr496/MusalaQA_AutomationTask/blob/main/DemoVideos/TC4.mp4
