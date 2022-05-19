@@ -1,7 +1,7 @@
 
 Feature: MusalaSoft QA Automation Task
 
-  @TC1
+  @TC1 @Test
   Scenario Outline: Test Case 1 || Verify that an inline error message appears when entering invalid email address format
     Given User navigate to musala soft website
     And User scroll down and click on Contact Us Button
@@ -20,7 +20,7 @@ Feature: MusalaSoft QA Automation Task
       | OnlySpecialCharsEmail |
       | InvalidFormatEmail    |
 
-  @TC2
+  @TC2 @Test
   Scenario: Test Case 2
     Given User navigate to musala soft website
     When User Clicks on the Company tab
@@ -29,7 +29,7 @@ Feature: MusalaSoft QA Automation Task
     When User click on the facebook link in the page footer
     Then User should be redirected to the company correct facebook URL
 
-  @TC3
+  @TC3 @Test
   Scenario Outline: Test Case 3
     Given User navigate to musala soft website
     And User Navigate to the Careers menu
@@ -48,7 +48,7 @@ Feature: MusalaSoft QA Automation Task
       | Location | Position               |
       | Anywhere | AUTOMATION QA ENGINEER |
 
-  @TC4
+  @TC4 @Test
   Scenario Outline: Test Case 4
     Given User navigate to musala soft website
     And User Navigate to the Careers menu

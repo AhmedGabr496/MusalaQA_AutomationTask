@@ -12,7 +12,8 @@ import org.junit.runner.RunWith;
         glue = "stepDefinetions", // Define the location of the step implementations of the feature files
         plugin = "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:", // Used to customize the How the output result is displayed
         monochrome = true,
-        tags = "@TC1" // Run only the test cases or feature file with the given tag
+        tags =  "@Test" // Run only the test cases or feature file with the given tag
 )
-public class TestRunner{
+public class TestRunner   {
+
 }

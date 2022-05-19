@@ -1,3 +1,11 @@
-webUI\pages\newPage.class
-webUI\stepDefinetions\MyStepdefs.class
-webUI\testRunner\TestRunner.class
+pages\CareersPage\CareersPage.class
+stepDefinetions\CompanyPage_StepDef.class
+pages\newPage.class
+stepDefinetions\CareerPage_StepDef.class
+stepDefinetions\Hooks.class
+stepDefinetions\TestRunner.class
+stepDefinetions\MyStepdefs.class
+pages\HomePage\HomePage.class
+pages\CompanyPage\CompanyPage.class
+stepDefinetions\HomePage_StepDef.class
+stepDefinetions\ParallelRunner.class

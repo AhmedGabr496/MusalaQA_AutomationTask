@@ -1,4 +1,6 @@
+utilities\ConfigUtil.class
 test.class
 utilities\TestBase.class
-utilities\ConfigUtil.class
+utilities\actions\ElementActions.class
 utilities\actions\BrowserActions.class
+utilities\JsonTestDataReader.class
